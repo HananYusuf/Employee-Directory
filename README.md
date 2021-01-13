@@ -13,7 +13,7 @@ This is a React application that allows users to be able to view employee direct
 * [Issues](#issues)
 * [Questions](#questions)
 
-## Built Withgit 
+## Built With
  The program is built with React and NodeJS.
 
 ## Usage
