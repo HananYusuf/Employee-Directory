@@ -40,7 +40,11 @@ class Table extends React.Component {
     render(){
         return (
             <>
-            <input onChange={this.filterByName} placeholder="Search by Name"></input>
+            <nav className="navbar navbar-dark bg-dark justify-content-center">
+                <form class Name="form-inline">
+                    <input className="form-control mr-sm-2" onChange={this.filterByName} placeholder="Search by Name"></input>
+                </form>
+            </nav>
             <table className="table table-dark">
                 <thead>
                     <tr>
